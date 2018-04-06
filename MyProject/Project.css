@@ -1,0 +1,64 @@
+/*body{*/
+    /*background-color: ;*/
+/*}*/
+/*header{*/
+    /*text-align: right;*/
+    /*background-color: #f0f8ff;*/
+    /*height: 75px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 10px;*/
+/*}*/
+
+/*input{*/
+    /*padding: 20px 20px;*/
+    /*background-color: #7ea6ee;*/
+    /*color: white;*/
+/*}*/
+/*article{*/
+    /*padding: 25px 25px;*/
+    /*border: 1px solid blue;*/
+/*}*/
+
+/*article p{*/
+    /*background-color: beige;*/
+    /*padding-bottom: 10px;*/
+/*}*/
+/*article p input{*/
+    /*padding: 5px 5px;*/
+    /*background-color: red;*/
+/*}*/
+/*#last{*/
+    /*background-color: white;*/
+    /*color: blue;*/
+/*}*/
+/*footer{*/
+    /*text-align: left;*/
+    /*background-color: #f0f8ff;*/
+    /*height: 75px;*/
+    /*padding-top: 10px;*/
+    /*padding-left: 10px;*/
+
+/*}*/
+/*!*button {*!*/
+    /*!*padding: 20px 20px;*!*/
+    /*!*background-color: blue;*!*/
+/*!*}*!*/
+header{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+header h2{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: normal;
+}
+body{
+    background-image: url("world-map.png");
+    background-position: top;
+}
+header a:visited{
+    color: darkgrey;
+}
