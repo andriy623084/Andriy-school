@@ -43,22 +43,133 @@
     /*!*padding: 20px 20px;*!*/
     /*!*background-color: blue;*!*/
 /*!*}*!*/
-header{
-    font-family: sans-serif;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 4px;
+
+
+/*header{*/
+    /*font-family: sans-serif;*/
+    /*text-align: center;*/
+    /*font-weight: bold;*/
+    /*letter-spacing: 4px;*/
+/*}*/
+/*header h2{*/
+    /*letter-spacing: 2px;*/
+    /*font-style: italic;*/
+    /*font-family: cursive;*/
+    /*font-weight: normal;*/
+    /*text-overflow: ellipsis; !*to hide words into "..."*!*/
+    /*width: 250px;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+/*}*/
+/*body{*/
+    /*background-image: url("world-map.png");*/
+    /*background-position: top;*/
+/*}*/
+/*header a:visited{*/
+    /*color: darkgrey;*/
+/*}*/
+
+LAB 1.3.8
+body {
+background-image: url("space.jpg");
 }
-header h2{
-    letter-spacing: 2px;
-    font-style: italic;
-    font-family: cursive;
-    font-weight: normal;
+.sun{
+height: 200px;
+width: 200px;
+background-color: yellow;
+border-radius: 50%;
+margin: 20px auto;
 }
-body{
-    background-image: url("world-map.png");
-    background-position: top;
+.orbit{
+height: 400px;
+width: 400px;
+/*border-radius: 100%;*/
+border: 2px solid blue;
+margin: 150px auto;
+    animation-name: round;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
 }
-header a:visited{
-    color: darkgrey;
+
+.Mars{
+height: 80px;
+width: 80px;
+border-radius: 50%;
+background-color: red;
+margin-left: 30px;
 }
+.Mars:hover{
+    box-shadow: 0 0 40px 10px red;
+    transform: rotateX(70deg), rotateY(80deg), rotateZ(90deg);
+    transition: all 2s;
+}
+
+}
+@keyframes round{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/*}*/
+
+/*!*lab 1.3.7*!*/
+/*#page-wrap { width: 80%; margin: 60px auto; }*/
+/*.group{*/
+    /*display: inline-block;*/
+/*}*/
+/*.five-columns .col {*/
+    /*width: 16%; float: left; padding: 2%;*/
+/*}*/
+/*.group:after {*/
+    /*visibility: hidden;*/
+    /*display: block;*/
+    /*font-size: 0;*/
+    /*content: " ";*/
+    /*clear: both;*/
+    /*height: 0;*/
+/*}*/
+/*.five-columns {*/
+    /*background-image: -webkit-gradient(linear, left top,*/
+            /*right top,*/
+            /*color-stop(0, #eee),*/
+            /*color-stop(20%, #eee),*/
+            /*color-stop(20%, #ccc),*/
+            /*color-stop(40%, #ccc),*/
+            /*color-stop(40%, #eee),*/
+            /*color-stop(60%, #eee),*/
+            /*color-stop(60%, #ccc),*/
+            /*color-stop(80%, #ccc),*/
+            /*color-stop(80%, #eee),*/
+            /*color-stop(100%, #eee)*/
+    /*);*/
+
+
+/*lab about flesh-boxes*/
+/*header{*/
+    /*display: flex;*/
+    /*padding: 10px;*/
+/*}*/
+/*header .left-button{*/
+    /*margin-left: auto;*/
+/*}*/
+/*.row{*/
+    /*display: inline-flex;*/
+    /*height: 30px;*/
+    /*justify-content: flex-end;*/
+/*}*/
+/*.rest{*/
+    /*background-color:  #f7f7e3;*/
+    /*flex-grow: 3;*/
+/*}*/
+/*.row .fixed{*/
+    /*width:200px;*/
+    /*background-color: #fffbf4;*/
+/*}*/
