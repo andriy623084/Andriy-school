@@ -1,0 +1,27 @@
+body{
+  background-color: red;
+}
+@fontColor: white;
+@text-center: center;
+@ground-color: blue;
+#button(){
+  .Navbutton{
+    background-color: yellowgreen;
+    border: 0;
+  }
+}
+header{
+  color:@fontColor ;
+  text-align: @text-center;
+}
+nav{
+  height:40px;
+  width: 100%;
+  background-color: #b0c9aa;
+  button{#button > .Navbutton};
+}
+@media (max-width: 760px){
+  nav{
+    background-color: black;
+  }
+}

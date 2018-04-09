@@ -1,0 +1,21 @@
+body {
+  background-color: red;
+}
+header {
+  color: white;
+  text-align: center;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #b0c9aa;
+}
+nav button {
+  background-color: yellowgreen;
+  border: 0;
+}
+@media (max-width: 760px) {
+  nav {
+    background-color: black;
+  }
+}
