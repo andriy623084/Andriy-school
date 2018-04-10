@@ -1,9 +1,9 @@
 body{
-  background-color: red;
+  background-image: url("space.jpg");
 }
 @fontColor: white;
 @text-center: center;
-@ground-color: blue;
+@ground-color: red;
 #button(){
   .Navbutton{
     background-color: yellowgreen;
@@ -23,5 +23,44 @@ nav{
 @media (max-width: 760px){
   nav{
     background-color: black;
+  }
+}
+.Orbit{
+  width: 500px;
+  height:500px;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: 300px;
+  border: 2px solid blue;
+  animation-name: Circle;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  .Mars {
+    width: 100px;
+    height: 100px;
+    background-color: @ground-color;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 50px;
+
+
+  }
+  .Sun{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 140px auto;
+  }
+}
+
+@keyframes Circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
