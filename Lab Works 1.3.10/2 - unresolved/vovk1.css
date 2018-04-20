@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding-top: 75px;
+}
+.header {
+  background-color: blue;
+}
+.header-item {
+  color: #0ebfdd;
+}
+nav {
+  background-color: blue;
+}
+aside {
+  background-color: yellow;
+}
+section {
+  background-color: yellowgreen;
+}

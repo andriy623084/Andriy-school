@@ -1,0 +1,41 @@
+.backgroundcolor-slider-next{
+    justify-content: end;
+}
+.backgroundcolor-slider-prev{
+    justify-content: flex-end;
+}
+.card-body a{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 4px solid orange;
+    padding-bottom: 4px;
+    font-weight: bold;
+    opacity: 0.6;
+    color: black;
+}
+.block2{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+}
+.main-button-blue {
+    margin-left: 425px;
+    padding: 25px 95px;
+    color: white;
+    background-color: #224e73;
+}
+.main-button-blue:hover{
+    background-color: #224e73;
+}
+/*.main-button-blue:after{*/
+    /*border: none;*/
+/*}*/
+.modal-content-recss{
+    width: 500px;
+    height: 700px;
+}
+.for-jumbotron{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}

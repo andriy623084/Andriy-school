@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="ipad.css"/>
+    <meta charset="UTF-8">
+    <title>Duba Resort Hotel</title>
+</head>
+<body>
+<header>
+
+    <div class="slideshow-container ">
+        <div class="center-block-main">
+            <div class="Logo-Header">
+                <img src="images/nato-star-label-organization-512.png" style="width: 73px" height="73px"/>
+                <p>Protection</p>
+            </div>
+            <div class="header-main clearfix">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">PROCESS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PEOPLE</a></li>
+                        <li><a href="#">NEWS & INSIGHTS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/dubai-wedding-venues.jpg" style="width:100%; ">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/burjal_arab3.jpg" style="width:100%; ">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/samyiy-dorogoy-otel-v-dubae-shikarnyiy-burdzh-al-arab-1.jpg" style="width:100%; ">
+        </div>
+        <div class="Learn-more">
+            <p><a href="#">LEARN MORE ABOUT THIS PROJECT</a></p>
+            </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</header>
+<section class="block3">
+<div class="Image-block3">
+    <img src="images/91021b29-959e-40ae-b094-dbbb83e76392%20copy.jpg">
+</div>
+    <aside>
+        <p>who we are</p>
+        <h2>GWWO is an award-winning design firm focused on client
+            service and design excellents. We tell our clients stories
+            through design
+        </h2>
+        <a href="#">Learn about our progress</a>
+    </aside>
+</section>
+<section class="block4">
+    <h2 class="Title-block4-line">
+        <span>Featured Work</span>
+        <img src="images/orange-icon.jpg">
+    </h2>
+<div class="inline-blocks4">
+    <article>
+            <img src="images/block4Photo1.jpg" alt="just a foot">
+            <h2>washington college hodson hall <br> commons </h2>
+            <a href="#">See more</a>
+        </article>
+        <article>
+            <img src="images/block4Photo2.jpg" alt="kids">
+            <h2>homestead heritage center </h2>
+            <a href="#">See more</a>
+        </article>
+        <article>
+            <img src="images/block4Photo3.jpg" alt="shoes">
+            <h2>red pump elementary school </h2>
+            <a href="#">See more</a>
+        </article>
+</div>
+    <button class="main-button-blue"> See all projects</button>
+</section>
+
+
+</body>
+</html>
